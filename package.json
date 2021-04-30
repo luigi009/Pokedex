@@ -11,5 +11,11 @@
     "next": "10.x",
     "react": "17.x",
     "react-dom": "17.x"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.1.2"
   }
 }
