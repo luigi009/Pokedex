@@ -5,7 +5,7 @@ export default function Home({ pokemon }) {
   return (
     <>
     <Layout title="Pokedex" >
-      <h1 className="text-4xl mb-8 text-center">Pokedex</h1>
+      <h1 className="text-4xl mb-8 text-center font-bold">Pokedex</h1>
       <ul>
         <li>{pokemon.map((pokeman, index) => (
           <li className="slide-in-elliptic-top-fwd" key={index}>
