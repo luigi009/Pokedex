@@ -6,7 +6,7 @@ export default function pokemon({ pokeman }) {
     return (
         <>
             <Layout title={pokeman.name}>
-                <h1 className="tracking-in-expand text-4xl mb-2 text-center capitalize">{pokeman.name}</h1>
+                <h1 className="tracking-in-expand text-4xl mb-2 text-center capitalize font-bold">{pokeman.name}</h1>
                 <img className="tilt-in-top-1 mx-auto" src={pokeman.image} alt={pokeman.name} />
                 <div className="slide-in-blurred-top flex items-center flex-col">
                     <p><span className="font-bold mr-2">Weight: </span>{pokeman.weight}</p>
